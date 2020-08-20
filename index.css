@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
 body {
 	background: #efbbbb;
 	background: -webkit-linear-gradient(to right, #d64a4a, #e62f2f);
@@ -15,7 +18,7 @@ body {
 .title {
 	letter-spacing: 3px;
 	position: relative;
-	left: 11%;
+	left: 13%;
 }
 
 .center {
@@ -85,7 +88,7 @@ body {
 	margin-right: 10px;
 	box-shadow: 0 3px 15px #64646480;
 	position: relative;
-	right: 52%;
+	right: 69%;
 	margin-top: 20px;
 }
 
