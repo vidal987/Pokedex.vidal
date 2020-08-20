@@ -5,15 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./img/ico.png" type="image/x-icon">
 </head>
 <body>
-    
+    <header>
+        <!-- Logo do Pokemon -->
+        <img class="pokemon-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo" class="pokemon-logo">
+    </header>
+    <main>
+        <div class="center">
+            <div class="title">
+                <h1>Pokédex</h1>
+            </div>
+          
+           <!-- Botão do Search -->
+            <form class="busca">
+                   <input type="search" class="search-input" placeholder="Buscar pokemon" id="nome">
+                   <button class="search-button"><b>Buscar</b></button>
+            </form>
+         </div>
+        <div id="poke_container" class="poke-container"></div>
+    </main>
 
-<h1>PokeDex</h1>
-<div id="poke_container" class="poke-container"></div>
-
-
-<script src="/index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
