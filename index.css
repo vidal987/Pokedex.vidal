@@ -6,12 +6,6 @@
 }
 
 body {
-	/* background: #EFEFBB;
-	background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
-	background: linear-gradient(to right, #D4D3DD, #EFEFBB); */
-
-	/* background-color: #FF0000; */
-
 	background: #efbbbb;
 	background: -webkit-linear-gradient(to right, #d64a4a, #e62f2f);
 	background: linear-gradient(to right, #d64a4a, #e62f2f);
@@ -29,7 +23,6 @@ body {
 	letter-spacing: 3px;
 	position: relative;
 	left: 11%;
-	/* margin-bottom: 50px; */
 }
 
 .center {
@@ -96,7 +89,6 @@ body {
 	height: 40px;
 	color: #3B4CCA;
 	border: 0;
-	/* margin-bottom: 50px; */
 	margin-right: 10px;
 	box-shadow: 0 3px 15px #64646480;
 	position: relative;
@@ -113,5 +105,6 @@ main {
   	height: 100%;
 	justify-content: center;
 	border-radius: 20px;
-  	box-shadow: 10px 10px 30px black;
+	box-shadow: 10px 10px 30px black;
+	margin-bottom: 40px;
 }
