@@ -1,0 +1,21 @@
+body {
+    background-color: #FF0000;
+    color: black;
+    margin: 0;
+    font-family: rubik;
+}
+main {
+background-color: #fff;
+padding: 40px;
+margin: 0 auto;
+width: 75%;
+height: 100%;
+justify-content: center;
+}
+header{
+    margin-bottom: 100px;
+}
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}

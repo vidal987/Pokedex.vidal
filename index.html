@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-    <script src="/index.js"></script>
+    <main>
+        <header>
+            <!-- Logo do Pokemon -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo" class="pokemon-logo">
+
+            <!-- Botão do Search -->
+                <form class="busca">
+                    <input type="search" class="search-input" placeholder="Buscar pokemon" id="nome">
+                    <button class="search-button">Search</button>
+                </form>
+        </header>
+        <div class="container">
+
+            <h1>Pokedex</h1>
+
+            <div  id = "mesa">
+                <div class= "carta" id ="carta0">
+            <div class= "rosto frente"></div>
+            </div>
+            <div  id = "mesa">
+                <div class= "carta" id ="carta1">
+            <div class= "rosto frente"></div>
+            </div>
+            <div  id = "mesa">
+                <div class= "carta" id ="carta2">
+            <div class= "rosto frente"></div>
+            </div>
+            <div  id = "mesa">
+                <div class= "carta" id ="carta3">
+            <div class= "rosto frente"></div>
+            </div>
+        
+            <ul id="pokedex"></ul>
+        </div>
+        <script src="/index.js"></script>
+    </main>
+
 </body>
 
 </html>
