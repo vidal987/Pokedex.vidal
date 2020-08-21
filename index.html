@@ -4,16 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title>Pokédex</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./img/ico.png" type="image/x-icon">
 </head>
 <body>
-    
-
-<h1>PokeDex</h1>
-<div id="poke_container" class="poke-container"></div>
-
-
+    <header>
+        <!-- Logo do Pokemon -->
+        <img class="pokemon-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo" class="pokemon-logo">
+    </header>
+    <main>
+        <div class="center">
+            <div class="title">
+                <h1>Pokédex</h1>
+            </div>
+           <!-- Botão do Search -->
+            <form class="busca">
+                   <input type="search" class="search-input" placeholder="  Buscar Pokémon..." id="nome">
+                   <button class="search-button"><b>Buscar</b></button>
+            </form>
+         </div>
+        <div id="poke_container" class="poke-container">
+        </div>
+    </main>
+    <footer>
+        <div class="h2"><h2>PokeEnterprise</h2></div>
+        <ul>
+            <li><span><img src="./img/github-logo.svg"></span><a target="_blank" href="https://github.com/ramos-r">Rebecca Ramos</a></li>
+            <li><span><img src="./img/github-logo.svg"></span><a target="_blank" href="https://github.com/JoseCarlos69">José Uchoa</a></li>
+            <li><span><img src="./img/github-logo.svg"></span><a target="_blank" href="https://github.com/vidal987">Matheus Vidal</a></li>
+            <li><span><img src="./img/github-logo.svg"></span><a target="_blank" href="https://github.com/firgo12">Guilherme Cunha</a></li>
+            <li><span><img src="./img/github-logo.svg"></span><a target="_blank" href="https://github.com/leoorodr">Leonardo Rodrigues</a></li>
+            <li><span><img src="./img/github-logo.svg"></span><a target="_blank" href="https://github.com/marques-vinid">Vinicius Dias</a></li>
+        </ul>
+    </footer>
 <script src="index.js"></script>
 </body>
 </html>
